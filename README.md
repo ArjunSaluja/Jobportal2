@@ -8,36 +8,30 @@ A **full-stack Job Portal web application** built with **MERN Stack (MongoDB, Ex
 
 ---
 
+
+
 ## 🚀 Features
 
-### For Users
-- Sign up / Login with authentication
-- Browse job listings
-- Apply to jobs
-- Track application status
-
-### For Recruiters
-- Post new job openings
-- View applicants and applications
-- Dashboard for job management
-
-### General
-- Responsive design
-- RESTful API backend
-- JWT-based authentication
-- MongoDB database
+- 👤 **User Authentication** (Register, Login, JWT-based)
+- 💼 **Job Listings** – Browse, search, and filter jobs easily
+- 🧑‍💼 **Recruiter Dashboard** – Add, edit, and manage job postings
+- 📨 **Application Tracking** – Users can apply for jobs and view application status
+- 🖥️ **Responsive UI** – Optimized for mobile and desktop
+- ☁️ **Secure Deployment-Ready Setup** – with `.env` protection and CI/CD configuration
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, HTML5, CSS3, JavaScript
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JWT
-- **Deployment:** Local/Cloud
+**Frontend:** React.js, CSS, JavaScript  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB (Mongoose)  
+**Authentication:** JWT, bcrypt  
+**Tools:** Git, GitHub Actions, Postman, VS Code  
+**Hosting:** Vercel / Render (Frontend + Backend)
 
 ---
 
-## 📂 Project Structure
+## 🧰 Folder Structure
+
 
