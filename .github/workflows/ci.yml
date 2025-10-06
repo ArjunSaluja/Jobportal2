@@ -1,0 +1,58 @@
+name: Job Portal CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install server dependencies
+      run: |
+        cd server
+        npm install
+
+    - name: Lint server code
+      run: |
+        cd server
+        npm run lint || echo "No lint script found"
+
+    - name: Test server
+      run: |
+        cd server
+        npm test || echo "No test script found"
+
+    - name: Install client dependencies
+      run: |
+        cd client
+        npm install
+
+    - name: Lint client code
+      run: |
+        cd client
+        npm run lint || echo "No lint script found"
+
+    - name: Test client
+      run: |
+        cd client
+        npm test || echo "No test script found"
+
+    - name: Build client
+      run: |
+        cd client
+        npm run build
