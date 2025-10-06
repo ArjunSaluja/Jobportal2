@@ -1,3 +1,4 @@
+
 # 💼 Job Portal
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -42,3 +43,6 @@ A **full-stack Job Portal web application** built with **MERN Stack (MongoDB, Ex
 
 ## 📂 Project Structure
 
+# Signed commit test
+- ✅ Test signed commit added on Monday 06 October 2025 11:28:04 PM IST
+ a022a47 (chore: test signed commit for testing)
