@@ -40,6 +40,15 @@ A **full-stack Job Portal web application** built with **MERN Stack (MongoDB, Ex
 - **Tools:** Git, GitHub Actions, Postman, VS Code  
 
 ---
+---
+
+## 🧠 Challenges & Learnings
+While developing this project, I faced challenges such as:
+- Managing asynchronous operations in Node.js
+- Structuring React components efficiently
+- Handling authentication and authorization securely  
+Each challenge helped improve my problem-solving and debugging skills.
+
 
 ## 📂 Project Structure
 
